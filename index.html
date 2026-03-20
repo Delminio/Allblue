@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nossa História ❤️</title>
+  <meta name="description" content="Uma retrospectiva romântica em forma de site.">
+  <link rel="preconnect" href="https://open.spotify.com">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="floating-hearts" id="floating-hearts"></div>
+
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark">❤</div>
+        <div class="brand-text">
+          <div class="brand-title">Nossa História</div>
+          <div class="brand-subtitle">Uma retrospectiva feita com amor, caos, gatos e One Piece.</div>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-track">
+          <div class="progress-bar" id="progress-bar"></div>
+        </div>
+        <div class="progress-label" id="progress-label">1/8</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card reveal visible">
+          <div class="kicker">Retrospectiva do nosso amor ✨</div>
+          <h1>Pra você,<br>meu All Blue.</h1>
+          <p>
+            Eu peguei tudo o que a gente viveu — o caos do começo, os nossos momentos mais lindos,
+            as piadas internas, as gatinhas, o Zoro vencendo o Sanji (infelizmente) — e transformei
+            isso numa história. A nossa história.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="jump-story">Começar a retrospectiva</button>
+            <a class="btn btn-secondary" href="#footer-note">Ler até o final</a>
+          </div>
+          <p class="footer-note" style="margin-top:18px">
+            Dica: em cada capítulo tem uma música. Se o Spotify não tocar sozinho, é só apertar play.
+          </p>
+        </div>
+      </section>
+
+      <section class="story" id="story-root"></section>
+
+      <div class="panel content-panel" style="margin-top:16px" id="footer-note">
+        <div class="page-meta">
+          <span class="page-pill">Fim? Nunca.</span>
+          <div class="page-dots" id="page-dots"></div>
+        </div>
+        <h2 style="font-size:clamp(28px, 4vw, 42px)">E no fim de tudo… ainda é você.</h2>
+        <p class="subtitle">Obrigado por existir, por tentar, por ficar e por amar.</p>
+        <div class="story-text">
+          <p>Esse site é só um jeitinho de dizer que a minha vida ficou muito mais bonita depois que você apareceu. E se depender de mim, a gente ainda vai viver capítulos muito mais lindos que esses.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
